@@ -1,0 +1,24 @@
+@import './components/variables.css';
+@import './components/navbar.css';
+@import './components/content.css';
+@import './components/sideContent.css';
+@import './components/footer.css';
+@import './components/loader.css';
+@import './components/modal.css';
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+.page {
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+
+
+

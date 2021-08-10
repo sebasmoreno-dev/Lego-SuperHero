@@ -1,0 +1,37 @@
+.navbar {
+    background: var(--primary-yellow);
+    grid-area: nav;
+    display: flex;
+    border-radius: 0 0 80px 0;
+}
+.navbar__content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 0 0 80px;
+
+    animation: 2s navbar 0.5s ease-in-out;
+}
+@keyframes navbar {
+    0% {
+        transform: translateY(-200px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+.navbar__content img {
+    width: 50px;
+}
+.navbar__content ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0;
+    width: 450px;
+}
+.navbar__content ul li a {
+    color: var(--primary-red);
+    font-weight: 700;
+    text-decoration: none;
+}

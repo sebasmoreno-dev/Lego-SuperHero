@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Lato";
+    src: url('../assets/fonts/Lato-Thin.woff2') format("woff2"),
+         url('../assets/fonts/Lato-Light.woff2') format("woff2"),
+         url('../assets/fonts/Lato-Bold.woff2') format("woff2");
+    font-weight: 100, 300, 700;
+}
+:root {
+    --primary-yellow: #ffd602;
+    --primary-red: #d5040a;
+    --primary-blue: #035cb6;
+}
